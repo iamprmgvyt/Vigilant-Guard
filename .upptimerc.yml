@@ -2,31 +2,22 @@
 owner: iamprmgvyt
 repo: Vigilant-Guard
 
-# Sites to monitor
+# List of sites to monitor
 sites:
-  - name: Google Search
+  - name: Google
     url: https://www.google.com
-  - name: My Website
-    url: https://www.prmgvyt.io.vn/ # Replace with your actual domain
-  - name: My Blog
-    url: https://www.prmgvyt.io.vn/blog/blog.html
+  - name: My Site
+    url: https://www.prmgvyt.io.vn/ # Thay link web của bạn vào đây
 
-# Status Page Configuration
+# Status Page Setup
 status-page:
   basename: /Vigilant-Guard/
-  title: Vigilant-Guard Status Center
-  introMessage: Welcome to the official monitoring hub for Vigilant-Guard. Systems are checked every 5 minutes.
+  title: Vigilant-Guard Status
+  introMessage: This is a 24/7 monitoring service.
   navbar:
     - title: Status
       href: /Vigilant-Guard/
     - title: GitHub
       href: https://github.com/iamprmgvyt/Vigilant-Guard
-
-# Notification settings (Optional)
-# To get Telegram alerts, you will need to add secrets to your repo settings
-# notifications:
-#   - type: telegram
-#     chatId: $TELEGRAM_CHAT_ID
-#     token: $TELEGRAM_BOT_TOKEN
 
 assignees: [iamprmgvyt]
